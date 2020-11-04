@@ -38,5 +38,12 @@ public class DirectorEmpleado implements Empleados {
 	public void setNombreEmpresa(String nombreEmpresa) {
 		this.nombreEmpresa = nombreEmpresa;
 	}
-
+	
+//	MÉTODOS INIT Y DESTROY
+	public void metodoInicial() {
+		System.out.println("Dentro del método INIT. Aquí irían las tareas a ejectuar y antes de que el BEAN esté listo");
+	}
+	public void metodoFinal() {
+		System.out.println("Dentro del método DESTROY. Aquí irían las tareas a ejectuar y después de que el BEAN esté listo");
+	}
 }
