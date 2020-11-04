@@ -15,6 +15,6 @@ public class UsoDemoSingletonPrototype {
 		System.out.println(Pablo);
 		if (Maria.equals(Pablo)) System.out.println("APUNTAN AL MISMO OBJETO");
 		else System.out.println("NO APUNTAN AL MISMO OBJETO");
+		contexto.close();
 	}
-
 }
